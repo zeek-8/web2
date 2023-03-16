@@ -84,7 +84,14 @@ nav a:active {
 }
 
 
-nav a:hover {
+nav div.first a:hover {
+	text-decoration: underline;
+	text-decoration-color: rgb(18, 211, 4);
+	text-decoration-thickness: 2px;
+
+}
+
+nav div.second a:hover {
 	text-decoration: underline;
 	text-decoration-color: rgb(18, 211, 4);
 	text-decoration-thickness: 2px;
