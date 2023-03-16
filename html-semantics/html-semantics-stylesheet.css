@@ -7,8 +7,6 @@
 /*universal selectors above*/
 
 
-
-
 /* Fonts in color white*/
 h1,h2,h3,h4,p {
 	color: white;
@@ -24,64 +22,57 @@ body {
 }
 
 
-/*Title*/
-h1 {
 
-	font-size: 100px;
+
+/*Semantics Section*/
+
+header h1{
+
+	font-size: 60px;
 	text-align: center;
-	padding: 343px;
-	background-image: url("h1.jpg");
 	margin: auto;
+	color: rgb(255, 255, 255);
+	padding: 100px;
+
 }
 
 
-/*nav bar*/
-nav {
-
+/*Semantics Article*/
+.semantic-elements h3{
 	padding: 100px;
+	text-align: center;
+	font-size: 35px;
 	
-	margin: auto;
+}
+
+.semantic-elements p {
 	
-	border: 1px;
-	
-	border-style: solid;
-	}
-	
-	nav a {
-		
-		text-decoration-line: none;
-		font-weight:bolder;
-		font-size: 40px;
-		color: white;
-		margin: 50px;
-		text-align: center;
-	}
-	
-	
-	nav a:active {
-		opacity: 0.7;
-	}
-	
-	
-	nav a:hover {
-		text-decoration: underline;
-		text-decoration-color: rgb(18, 211, 4);
-		text-decoration-thickness: 2px;
-	
-	}
+	text-align: left;
+	width: 500px;
+	height: auto;
+	margin-left: 50px;
+}
+
+.tag-h3 {
+	font-family: monospace;
+	font-size: 35px;
+	color: rgb(18, 211, 4);
+
+}
 
 
-
-
-
-
-
-
+/*Span styles*/
+.tag {
+	font-family: monospace;
+	font-size: 17px;
+	color: rgb(18, 211, 4);
+}
 
 footer {
 
 	background-color: #181818;
-	padding-bottom: 120px;
+	margin-top: 135px;
+	padding-bottom: 170px;
 	background-image: url("h1.jpg");
 	
 	
@@ -106,36 +97,64 @@ footer a:active[href="#top"]  {
 footer a:hover[href="#top"]  {
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
-	text-decoration-color: rgb(18, 211, 4)
+	text-decoration-color: rgb(18, 211, 4);
 
 }
 
 
 
-footer a[href="../html-nav-page/index.html"]  {
+footer a[href="../css-nav-page/nav.html"]  {
 	text-decoration-line: none;
 	font-weight:bolder;
 	font-size: 40px;
 	color: white;
 	text-align: left;
 	position: relative;
-	top: 90px;
-	right: 170px;
+	top: 80px;
+	right: 168px;
+	border: 3px;
 
 }
 
 
-footer a:active[href="../html-nav-page/index.html"]  {
+footer a:active[href="../css-nav-page/nav.html"]  {
 	opacity: 0.7;
 }
 
 
-footer a:hover[href="../html-nav-page/index.html"]  {
+footer a:hover[href="../css-nav-page/nav.html"]  {
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
-	text-decoration-color: rgb(18, 211, 4)
+	text-decoration-color: rgb(18, 211, 4);
+}
+
+
+footer a[href="../index.html"]  {
+	text-decoration-line: none;
+	font-weight:bolder;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 140px;
+	right: 243.9px;
+	border: 3px;
+	
+}
+
+
+footer a:active[href="../index.html"]  {
+	opacity: 0.7;
+}
+
+
+footer a:hover[href="../index.html"]  {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: rgb(18, 211, 4);
 
 }
+
 
 
 
