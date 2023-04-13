@@ -38,14 +38,14 @@ header h1{
 
 
 /*Semantics Article*/
-.semantic-elements h3{
+.structure-elements h3{
 	padding: 100px;
 	text-align: center;
 	font-size: 35px;
 	
 }
 
-.semantic-elements p {
+.structure-elements p {
 	
 	text-align: left;
 	width: 500px;
@@ -60,8 +60,36 @@ header h1{
 
 }
 
+ul {
+	padding: 0px;
+	margin-left: 50px;
+}
+
+ul li {
+	
+	list-style: none;
+	
+}
 
 /*Span styles*/
+
+
+
+.white {
+
+	color: white;
+}
+
+.link {
+
+	color: #2424ff;
+}
+
+.yellow {
+	color: yellow;
+}
+
+
 .tag {
 	font-family: monospace;
 	font-size: 17px;
@@ -154,6 +182,12 @@ footer a:hover[href="../index.html"]  {
 	text-decoration-color: rgb(18, 211, 4);
 
 }
+
+
+
+
+
+
 
 
 

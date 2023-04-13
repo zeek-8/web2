@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Semantics</title>
-	<link rel="stylesheet" href="html-semantics-stylesheet.css">
+	<link rel="stylesheet" href="html-elements-and-structure.css">
 </head>
 <body>
 	<header>
@@ -14,30 +14,218 @@
 		<section class="structure">
 			<article class="structure-elements">
 	
-				<p></p>
-	
-	
-				<h3>Element placement</h3>
+				<h3>HTML</h3>
 						
-				<p>Semantic HTML introduces elements that can tell developers exactly what the element does or where it’s placed based on the name of that element. Some of these elements are <span class="tag">&lt;header&gt;</span>, <span class="tag">&lt;nav&gt;</span>, <span class="tag">&lt;main&gt;</span>, and <span class="tag">&lt;footer&gt</span>. <span class="tag">&lt;header&gt;</span> describes the content at the top of the page <span class="tag">&lt;body&gt;</span>. It may include a logo, navigational links or a search bar. &lt;nav&gt; encapsulates the page’s navigational links. It is often placed inside the &lt;header&gt; or <span class="tag">&lt;footer&gt</span>. <span class="tag">&lt;main&gt;</span> encapsulates the main content of a page between the header/navigation and the footer areas. <span class="tag">&lt;footer&gt</span> includes the page’s footer content at the bottom of the <span class="tag">&lt;body&gt;</span>.</p>
+				<p>HTML (HyperText Markup Language) is used to give content to a web page and instructs web browsers on how to structure that content.</p>
+
+				<!---->
 				
-				<h3>Embedding media</h3>
+				<h3>Element Content</h3>
 	
-				<p>Semantic HTML introduces us to <span class="tag">&lt;video&gt;</span>, <span class="tag">&lt;audio&gt;</span> and <span class="tag">&lt;embeded&gt;</span>. <span class="tag">&lt;video&gt;</span>; allows us to add videos to our website. <span class="tag">&lt;audio&gt;</span> allows us to implement audio into our website. <span class="tag">&lt;embeded&gt;</span> can be used to implement any type of media. These elements are universal in that they all use the src attribute to link the source of the content. <span class="tag">&lt;video&gt;</span> and <span class="tag">&lt;audio&gt;</span> requires a closing tag while <span class="tag">&lt;embeded&gt;</span> is a self-closing tag.</p>
+				<p>The content of an HTML element is the information between the opening and closing tags of an element.</p>
+
+				<!---->
 	
+				<h3><span class="tag-h3">&lt;</span>li<span class="tag-h3">&gt;</span> List Item Element</h3>
 	
-				<h3><span class="tag-h3">&lt;</span>figure<span class="tag-h3">&gt;</span> and <span class="tag-h3">&lt;</span>figcaption<span class="tag-h3">&gt;</span></h3>
+				<p>The <span class="tag">&lt;li&gt;</span> list item element create list items inside:</p>
+				<ul>
+					<li><span class="white">Ordered lists: </span><span class="tag">&lt;ol&gt;</span></li>
+					<li><span class="white">Unordered lists: </span><span class="tag">&lt;ul&gt;</span></li>
+				</ul>
+
+				<!---->
 	
-				<p>The <span class="tag">&lt;figure&gt;</span> element is used to encapsulate media such as an image, diagram. or code snippet. The <span class="tag">&lt;figcaption&gt;</span> element is used to describe the media encapsulated within the <span class="tag">&lt;figure&gt;</span> element. Developers will normally use <span class="tag">&lt;figcaption&gt;</span> within the <span class="tag">&lt;figure&gt;</span> element to group the media and description. This way, if a developer decides to change the position of the media, the description will follow along with it.</p>
+				<h3><span class="tag-h3">&lt;</span>video<span class="tag-h3">&gt;</span> Video Element</h3>
 	
-				<h3><span class="tag-h3">&lt;</span>section<span class="tag-h3">&gt;</span> and <span class="tag-h3">&lt;</span>article<span class="tag-h3">&gt;</span></h3>
+				<p>The <span class="tag">&lt;ol&gt;</span> element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player.</p>
+
+				<!---->
 	
-				<p><span class="tag">&lt;section&gt;</span> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme. <span class="tag">&lt;article&gt;</span> holds content that makes sense on its own such as articles, blogs, and comments. Generally developers will use <span class="tag">&lt;section&gt;</span> to define a theme for the webpage and use <span class="tag">&lt;article&gt;</span> to write independent content for that theme. This does not mean that <span class="tag">&lt;article&gt;</span>has to be used with <span class="tag">&lt;section&gt;</span>.</p>
-	
-	
-				<h3><span class="tag-h3">&lt;</span>aside<span class="tag-h3">&gt;</span></h3>
+				<h3><span class="tag-h3">&lt;</span>em<span class="tag-h3">&gt;</span> Emphasis Element</h3>
 	
 				<p>The <span class="tag">&lt;aside&gt;</span> element is used to mark additional information that can enhance another element but isn’t required in order to understand the main content. Usually, this information would be in a sidebar or a location where it doesn’t obstruct the main piece of content. An example of this would be an article that discusses how to take care of a dog and next to the article an ad would appear advertising a dog grooming product.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>ol<span class="tag-h3">&gt;</span> Ordered List Element</h3>
+
+				<p>The <span class="tag">&lt;aside&gt;</span> ordered list element creates a list of items in sequential order. Each list item appears numbered by default.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>div<span class="tag-h3">&gt;</span> Div Element</h3>
+
+				<p>The <span class="tag">&lt;div&gt;</span> element is used as a container that divides an HTML document into sections and is short for “division”. <span class="tag">&lt;div&gt;</span> elements can contain flow content such as headings, paragraphs, links, images, etc.</p>
+
+				<!---->
+
+				<h3>HTML Structure</h3>
+
+				<p>HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.</p>
+
+				<!---->
+
+				<h3>Closing Tag</h3>
+
+				<p>An HTML closing tag is used to denote the end of an HTML element. The syntax for a closing tag is a left angle bracket <span class="tag">&lt;</span> followed by a forward slash <span class="tag">/</span> then the element name and a right angle bracket to close <span class="tag">></span>.</p>
+
+				<!---->
+
+				<h3>Attribute Name and Values</h3>
+
+				<p>HTML attributes consist of a name and a value using the following syntax: name=<span class="tag">"value"</span> and can be added to the opening tag of an HTML element to configure or change the behavior of the element.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>br<span class="tag-h3">&gt;</span> Line Break Element</h3>
+
+				<p>The <span class="tag">&lt;br&gt;</span> line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line break element requires only an opening tag and must not have a closing tag.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>img<span class="tag-h3">&gt;</span> Image Element</h3>
+
+				<p>HTML image <span class="tag">&lt;img&gt;</span> elements embed images in documents. The src attribute contains the image URL and is mandatory. <span class="tag">&lt;img&gt;</span> is an empty element meaning it should not have a closing tag.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>h1<span class="tag-h3">&gt;</span>-<span class="tag-h3">&lt;</span>h6<span class="tag-h3">&gt;</span> Heading Elements</h3>
+
+				<p>HTML can use six different levels of heading elements. The heading elements are ordered from the highest level <span class="tag">&lt;img&gt;</span> to the lowest level.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>p<span class="tag-h3">&gt;</span> Paragraph Element</h3>
+
+				<p>The <span class="tag">&lt;p&gt;</span> paragraph element contains and displays a block of text.</p>
+
+				<!---->
+
+				<h3>Unique ID Attributes</h3>
+
+				<p>In HTML, specific and unique id attributes can be assigned to different elements in order to differentiate between them. When needed, the id value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions on that element and that element only. Valid id attributes should begin with a letter and should only contain letters (a-Z), digits (0-9), hyphens (-), underscores (_), and periods (.).</p>
+
+				<!---->
+
+				<h3>HTML Attributes</h3>
+
+				<p>HTML attributes are values added to the opening tag of an element to configure the element or change the element’s default behavior. In the provided example, we are giving the <span class="tag">&lt;p&gt;</span> (paragraph) element a unique identifier using the id attribute and changing the color of the default text using the style attribute.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>ul<span class="tag-h3">&gt;</span> Unordered List Element</h3>
+
+				<p>The <span class="tag">&lt;ul&gt;</span> unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.</p>
+
+				<!---->
+
+				<h3>alt Attribute</h3>
+
+				<p>An <span class="tag">&lt;img&gt;</span> element can have alternative text via the alt attribute. The alternative text will be displayed if an image fails to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked from being displayed, or if the image has not been received from the URL. The text will be read aloud if screen reading software is used and helps support visually impaired users by providing a text descriptor for the image content on a webpage.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>body<span class="tag-h3">&gt;</span> Body Element</h3>
+
+				<p>The <span class="tag">&lt;body&gt;</span> element represents the content of an HTML document. Content inside <span class="tag">&lt;body&gt;</span> tags are rendered on the web browsers. <span class="bold">Note:</span> There can be only one <span class="tag">&lt;body&gt;</span> element in a document.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>span<span class="tag-h3">&gt;</span> Span Element</h3>
+
+				<p>The <span class="tag">&lt;span&gt;</span> element is an inline container for text and can be used to group text for styling purposes. However, as <span class="tag">&lt;span&gt;</span>  is a generic container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic element is available.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>strong<span class="tag-h3">&gt;</span> Strong Element</h3>
+
+				<p>The <span class="tag">&lt;strong&gt;</span> element highlights important, serious, or urgent text and browsers will normally render this highlighted text in bold by default.</p>
+
+				<!---->
+
+				<h3>HTML Element</h3>
+
+				<p>An HTML element is a piece of content in an HTML document and uses the following syntax: opening tag + content + closing tag. In the code provided: <span class="tag">&lt;p&gt;</span>Hello World!<span class="tag">&lt;/p&gt;</span></p>
+
+				<ul>
+					<li><span class="tag">&lt;p&gt;</span> <span class="white">is the opening tag.</span></li>
+					<li><span class="white">Hello World!</span></li>
+					<li><span class="tag">&lt;/p&gt;</span> <span class="white">is the closing tag.</span></li>
+				</ul>
+
+				<!---->
+
+				<h3>HTML Tag</h3>
+
+				<p>The syntax for a single HTML tag is an opening angle bracket <span class="tag">&lt;</span> followed by the element name and a closing angle bracket <span class="tag">&gt;</span>. Here is an example of an opening <span class="tag">&lt;div&gt;</span> tag.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>a<span class="tag-h3">&gt;</span> Anchor Element</h3>
+
+				<p>The <span class="tag">&lt;a&gt;</span> anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL via the hyperlink reference attribute, <span class="tag">href</span>. The href determines the location the anchor element points to.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>head<span class="tag-h3">&gt;</span> Head Element</h3>
+
+				<p>The <span class="tag">&lt;head&gt;</span> element contains general information about an HTML page that isn’t displayed on the page itself. This information is called metadata and includes things like the title of the HTML document and links to stylesheets. </p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>target<span class="tag-h3">&gt;</span> Target Attribute</h3>
+
+				<p>The <span class="bold">target</span> attribute on an <span class="tag">&lt;a&gt;</span> anchor element specifies where a hyperlink should be opened. A target value of <span class="bold">"_blank"</span> will tell the browser to open the hyperlink in a new tab in modern browsers, or in a new window in older browsers or if the browser has had settings changed to open hyperlinks in a new window.</p>
+
+				<!---->
+
+				<h3>Indentation</h3>
+
+				<p>HTML code should be formatted such that the indentation level of text increases once for each level of nesting. It is a common convention to use two or four space per level of nesting.</p>
+
+				<!---->
+
+				<h3>Link to a Different Part of the Page #</h3>
+
+				<p>The anchor element <span class="tag">&lt;a&gt;</span> can create hyperlinks to different parts of the same HTML document using the href attribute to point to the desired location with <span class="bold">#</span> followed by the id of the element to link to.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>html<span class="tag-h3">&gt;</span> HTML Element</h3>
+
+				<p>The <span class="tag">&lt;html&gt;</span> element, the root of an HTML document, should be added after the <span class="yellow">!DOCTYPE</span> declaration. All content/structure for an HTML document should be contained between the opening and closing <span class="tag">&lt;html&gt;</span> tags.</p>
+
+				<!---->
+
+				<h3>Comments</h3>
+
+				<p>In HTML, comments can be added between an opening <span class="yellow">&lt;!--</span> and closing <span class="yellow">--&gt;</span>. Content inside of comments will not be rendered by browsers, and are usually used to describe a part of code or provide other details. Comments can span single or multiple lines.</p>
+				
+				<!---->
+
+				<h3>Whitespace</h3>
+
+				<p>Whitespace, such as line breaks, added to an HTML document between block-level elements will generally be ignored by the browser and are not added to increase spacing on the rendered HTML page. Rather, whitespace is added for organization and easier reading of the HTML document itself.</p>
+
+				<!---->
+
+				<h3><span class="tag-h3">&lt;</span>title<span class="tag-h3">&gt;</span> Title Element</h3>
+
+				<p>The <span class="tag">&lt;title&gt;</span> element contains a text that defines the title of an HTML document. The title is displayed in the browser’s title bar or tab in which the HTML page is displayed. The <span class="tag">&lt;title&gt;</span> element can only be contained inside a document’s <span class="tag">&lt;head&gt;</span> element.</p>
+
+				<!---->
+
+				<h3>File Path</h3>
+
+				<p>URL paths in HTML can be absolute paths, like a full URL, for example: <span class="link">https://developer.mozilla.org/en-US/docs/Learn</span> or a relative file path that links to a local file in the same folder or on the same server, for example: <span class="yellow">./style.css</span>. Relative file paths begin with <span class="yellow">./</span> followed by a path to the local file. <span class="yellow">./</span> tells the browser to look for the file path from the current folder.</p>
+
+				<!---->
+
+				<h3>Document Type Declaration</h3>
+
+				<p>The document type declaration <span class="tag">&lt;!DOCTYPE html&gt;</span> is required as the first line of an HTML document. The doctype declaration is an instruction to the browser about what type of document to expect and which version of HTML is being used, in this case it’s HTML5.</p>
+				
 			</article>
 		</section>
 	</main>
