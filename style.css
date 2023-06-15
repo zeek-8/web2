@@ -1,0 +1,329 @@
+/*Universal Styles*/
+
+html {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EEF3F9;
+}
+
+
+/*Header*/
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70rem;
+    background-image: url("./Images/ocean-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0px 1.5rem;
+}
+
+nav .logo {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin-right: 1.5rem;
+}
+
+nav h1 {
+    font-family: "Roboto";
+    font-size: 8rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 7px #000000db;
+} 
+    
+
+/*------Main------*/
+
+
+
+
+
+
+
+
+
+
+/*container-1*/
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.container-1 h2 {
+    font-family: "Roboto";
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 7px #000000db;
+    margin-bottom: 2rem;
+}
+
+.container-1 h3 {
+    font-family: "Roboto";
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 7px #000000db;
+}
+
+
+/*Passion*/
+
+.passion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50rem;
+    background-color: #7C92A6;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 2px black;
+    padding: 0px 1.5rem;
+
+
+    background-image: url("./Images/snow.jpg");
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.passion img {
+    display: none;
+}
+
+
+
+
+/*activities*/
+
+.activities {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50rem;
+    background-color: #012623;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 2px black;
+
+    background-image: url("./Images/hiking.jpg");
+    background-position: center;
+    background-size: cover;
+
+    padding: 0px 1.5rem;
+    text-align: center;
+}
+
+
+
+.activities img {
+    display: none;
+}
+
+
+/*container-2*/
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 10rem;
+}
+
+/*photos container*/
+
+.photos {
+    display: flex;
+    box-shadow: 0px 0px 14px 2px black;
+}
+
+/*photos*/
+
+.photo {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1420px) {
+    
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .passion {
+        min-width: 75%;
+    }
+
+    .activities {
+        margin-top: 10rem;
+        min-width: 75%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    
+    .photos {
+        width: 75%;
+        flex-wrap: wrap;
+    }
+
+    .photo {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    
+    .photos {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .photo {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+
+    nav h1 {
+        font-size: 7rem;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    nav .logo {
+        display: none;
+    }
+
+    nav {
+        text-align: center;
+        font-size: 5.6rem;
+    }
+
+    .passion {
+        width: 75%;
+    }
+
+    .activities {
+        width: 75%; 
+    } 
+}
+
+
+@media only screen and (max-width: 520px) {
+
+    .passion {
+        height: 40rem;
+    }
+
+    .activities {
+        height: 40rem;
+    } 
+
+
+    .container-1 h2 {
+        font-size: 4rem;
+    }
+
+    .container-1 h3 {
+        font-size: 2rem;
+    } 
+}
+
+
+@media only screen and (max-width: 485px) {
+
+    .container-1 h2{
+        font-size: 3.5rem;
+    }
+
+    .container-1 h3 {
+        font-size: 1.8rem;
+    }
+    
+    .passion {
+
+        height: 30rem;
+        width: 60%;
+    }
+
+    .activities {
+        width: 60%;
+        height: 30rem;
+    } 
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .container-1 h2{
+        font-size: 3.2rem;
+    }
+
+    .container-1 h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    nav h1 {
+        font-size: 6.2rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .container-1 h2 {
+        font-size: 2.8rem;
+    }
+
+    .container-1 h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    nav h1 {
+        font-size: 5.8rem;
+    }
+}
