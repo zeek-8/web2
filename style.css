@@ -1,5 +1,10 @@
 /*Universal Styles*/
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../zeek-8.github.io/fonts/Roboto-Regular.ttf') format('truetype');
+  }
+
 html {
     font-size: 10px;
 }
