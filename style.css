@@ -42,9 +42,9 @@ nav .logo {
 }
 
 nav h1 {
-    font-family: "roboto";
+    font-family: "roboto","heebo";
     font-size: 8rem;
-    font-weight: 600;
+    font-weight: 400;
     color: white;
     text-shadow: 1px 1px 7px black;
 } 
@@ -76,9 +76,9 @@ nav h1 {
 }
 
 .container-1 h2 {
-    font-family: "roboto";
+    font-family: "roboto","heebo";
     font-size: 4.8rem;
-    font-weight: 600;
+    font-weight: 400;
     color: white;
     text-shadow: 1px 1px 7px black;
     margin-bottom: 2rem;
