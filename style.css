@@ -1,10 +1,6 @@
 /*Universal Styles*/
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('../zeek-8.github.io/fonts/Roboto-Regular.ttf') format('truetype');
-  }
-
+  
 html {
     font-size: 10px;
 }
@@ -46,11 +42,11 @@ nav .logo {
 }
 
 nav h1 {
-    font-family: "Roboto";
+    font-family: "roboto";
     font-size: 8rem;
     font-weight: 600;
     color: white;
-    text-shadow: 0px 0px 7px black;
+    text-shadow: 1px 1px 7px black;
 } 
     
 
@@ -80,20 +76,20 @@ nav h1 {
 }
 
 .container-1 h2 {
-    font-family: "Roboto";
+    font-family: "roboto";
     font-size: 4.8rem;
     font-weight: 600;
     color: white;
-    text-shadow: 0px 0px 7px black;
+    text-shadow: 1px 1px 7px black;
     margin-bottom: 2rem;
 }
 
 .container-1 h3 {
-    font-family: "Roboto";
+    font-family: "roboto";
     font-size: 2.4rem;
     font-weight: 600;
     color: white;
-    text-shadow: 0px 0px 7px black;
+    text-shadow: 1px 1px 7px black;
 }
 
 
