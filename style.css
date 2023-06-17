@@ -312,18 +312,6 @@ main {
 
 
 
-@media only screen and (max-width: 1360px ) {
-
-    .container3 {
-      
-        margin-top: 0%;
-        margin-bottom: 0px;
-        
-    }
-
-}
-
-
 
 
 
@@ -337,10 +325,6 @@ main {
 
     .banner {
         font-size: 4rem;
-    }
-
-    .product ul {
-        margin-top: 8px;
     }
 
     .worker img {
@@ -370,21 +354,11 @@ main {
         font-size: 1.5rem;
     }
 
-
-    .product ul {
-        
-        margin-top: 5px;
+    .sub {
+        font-size: 3rem;
     }
 
-   .product {
+    .product {
         height: 500px;
-    }
-
-    .product ul li {
-        margin-top: 8px;
-    }
-
-    .price {
-        margin-top: 0px;
     }
 }
