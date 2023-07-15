@@ -311,6 +311,12 @@ main {
 
 /*Media*/
 
+@media only screen and (max-width: 1360px ) {
+
+    .products {
+        align-content: flex-start;
+    }
+}
 
 
 
